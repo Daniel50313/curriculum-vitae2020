@@ -1,0 +1,446 @@
+#contenedor
+{
+	margin: 0px;
+	background-color: white;
+	border: 0px;
+	margin: -3px;
+	top: -12px;
+	position: static;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-box-flex: 1;
+}
+
+body{
+	background: url(../imagen/fondo.jpg) no-repeat;
+	background-size: cover;
+	-webkit-box-flex: 1;
+}
+
+/* aqui va todo el encabezado*/
+#encabezado
+{
+	border: solid 0px;
+	width: 100%;
+	height: 80px;
+	position: static;
+	left: 250px;
+	background: url(../imagen/fondo.jpg);
+}
+#cv
+{
+	margin: 0px;
+	color: black;
+	text-align: center;
+	text-decoration-style: none;
+	font-size: 30px;
+
+
+}
+/* aqui van las configuraciones y estilos de los botones*/
+
+
+
+#tema1
+{
+	color: #19DADA;
+	font-family: vernada, arial;
+	text-align: center;
+	font-size: 50px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+
+#table
+{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	min-width: 0;
+	width: 100%;
+	height: 45px;
+	border: 0px;
+	color: grey;
+	text-decoration: none;
+	position: static;
+
+
+
+}
+
+td
+{
+	text-align: center;
+	font-size: 0.9em;
+	text-decoration: none;
+	position: static;
+}
+
+input#boton
+{
+	text-decoration: none;
+	display: inline-block;
+	border: 0px solid #626161;
+	width: 100%;
+	height: 30px;
+	line-height: 0px;
+	text-align: center;
+	padding-top: 10px;
+	margin: auto;
+	text-decoration: none;
+	position: static;
+
+	background-color: #626161;
+	color: #fff;
+	font-family: arial;
+	text-align: center;
+	box-shadow: 0px 0px 8px #6DEACB;
+	transition: 1s,color 1s;
+	text-decoration: none;
+}
+
+
+#datos{
+	width: 25%;
+	height: 35px;
+
+}
+
+input#boton:hover
+{
+	background: #B2F7F6;
+	color: #0489b1;
+	text-decoration: none;
+	position: static;
+}
+/* fin delos botones y encabezado*/
+
+
+#cuerpo
+{
+	border: solid 0px;
+	width: 100%;
+	height: 100%;
+	position: static;
+	right: -10px;
+
+}
+
+/* menu el que va adentro del cuerpo*/
+#menu
+{
+	border: solid 1px;
+	border-color: white;
+	float: left;
+	width: 29%;
+	height: 495px;
+
+}
+
+/*aqui enpieza lo del menu*/
+#cualidades
+{
+	font-weight: bold;
+	text-align: center;
+	font-size: 20px;
+}
+#cualidades1{
+	font-size: 15px;
+	font-family: vernada;
+	text-align: left;
+	position: static;
+	margin: -5px;
+	top: -5px;
+	padding-left: 5px;
+}
+
+#img1
+{
+	width: 100%;
+	height: 300px;
+	position: center;
+	margin: -18px;
+	top: -17px;
+}
+
+#informacion-personal
+{
+	border: solid 1px;
+	border-color: white;
+	float: right;
+	width: 68%;
+	height: 495px;
+	margin: 0px;
+	top: -1px;
+
+}
+
+
+.social{
+	position: right; 
+	left: right;
+	top: 150px;
+	list-style-position: inside;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	display: table-cell;
+	vertical-align: middle;
+
+}
+.social li{
+	display: inline-block;
+}
+.social li a{
+	padding: 4px 2px;
+	display: inline-block;
+	color: red;
+}
+
+#p1{
+	color: white;
+	text-align: center;
+	size: 5px;
+	font-family: Arial, verdana;
+	font-size: 15px;
+	margin: 2px;
+}
+
+#h{
+	margin: 2px;
+	top: 3px;
+}
+
+/*para dui nit afp*/
+
+.datosper{
+	position: static; 
+	top: 150px;
+	list-style-position: inside;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	display: table-cell;
+	vertical-align: middle;
+
+
+}
+
+.datosper li{
+	display: inline-block;
+}
+.datosper li a{
+	padding: 4px 2px;
+	display: inline-block;
+	color: red;
+}
+#p2
+{
+	text-align: center;
+}
+
+/*estudios realizados*/
+
+#informacion-estudio
+{
+	border: solid 1px;
+	border-color: white;
+	float: right;
+	width: 68%;
+	height: 495px;
+	margin: 13px 0px;
+	top: -1px;
+
+}
+
+#estudio-cursos
+{
+	border: solid 1px;
+	border-color: white;
+	float: left;
+	width: 29%;
+	height: 495px;
+	margin: 13px 0px;
+	top: -1px;
+	
+}
+
+.titulo-cursos
+{	
+
+	font-size: 25px;
+	text-align:center;
+}
+.pie3{
+	font-weight: bold;
+	font-family: arial, verdana, gotica;
+	font-size: 17px;
+	text-align:center;
+}
+/*barras */
+#informacion-lenguajes
+{
+	border: solid 1px;
+	border-color: white;
+	float: right;
+	width: 68%;
+	height: 495px;
+	margin: 18px 0px;
+	top: 50px;
+	overflow: hidden;
+}
+
+#progreso{
+	border: solid 1px;
+	border-color: black;
+	width: 100%;
+	height: 400px;
+	float: right;
+}
+
+
+#html5{
+ width: 500px;
+ height: 20px;
+}
+#CSS{
+ width: 500px;
+ height: 20px;
+}
+
+#sql{
+ width: 500px;
+ height: 20px;
+}
+#cshar{
+ width: 500px;
+ height: 20px;
+}
+#javascript{
+ width: 500px;
+ height: 20px;
+}
+
+
+
+h1{
+	font-size:20px;
+}
+
+h1 p{
+	background:#222;
+	color:#fff;
+}
+progress[value] {
+	/* Elimino la apariencia por defecto */
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	
+	/* Quito el borde que aparece en Firefox */
+	border: none;
+
+	/* A�ado mis propios estilos */
+	width: 100px;
+	height: 30px;
+	
+	
+/* 	Estos estilos solo se aplicaran al fondo de la barra en mozilla */
+	overflow:hidden;
+	border:1px inset #666;
+	background-color:#D8D8D8;
+	border-radius : 20px ; 
+}
+
+.progress{
+	float:left;
+	margin-right:30px;
+	margin-bottom:20px;
+}
+
+.progress span{
+	
+	font-weight:bold;
+	
+
+}
+/*estilo para las barras */
+
+/* Compatibilidad de color en Firefox, Chrome y Safari */
+progress::-moz-progress-bar{ 
+	background: #FF8000;
+	background: rgba(255,175,75,1);
+	background: -moz-linear-gradient(left, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,175,75,1)), color-stop(100%, rgba(255,146,10,1)));
+	background: -webkit-linear-gradient(left, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+	background: -o-linear-gradient(left, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+	background: -ms-linear-gradient(left, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+	background: linear-gradient(to right, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff920a', GradientType=1 );	
+	border-radius : 20px ; 
+	} 
+progress::-webkit-progress-value { 
+	background: #FF8000;
+	background: rgba(255,175,75,1);
+	background: -moz-linear-gradient(left, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,175,75,1)), color-stop(100%, rgba(255,146,10,1)));
+	background: -webkit-linear-gradient(left, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+	background: -o-linear-gradient(left, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+	background: -ms-linear-gradient(left, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+	background: linear-gradient(to right, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff920a', GradientType=1 );
+	border-radius : 20px ; 	
+
+}
+progress::-webkit-progress-bar { 
+	background-color:grey;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+	border-radius : 20px ; 
+
+}
+
+/*fin de configuracion de las barras*/
+
+
+#habilidades-personales{
+	border: solid 1px;
+	border-color: white;
+	float: left;
+	width: 29%;
+	height: 495px;
+	margin: 13px 0px;
+	top: -1px;
+	
+}
+
+#experiencia-laboral
+{
+	border: solid 1px;
+	border-color: white;
+	float: right;
+	width: 68%;
+	height: 495px;
+	margin: 13px 0px;
+	top: -1px;
+
+}
+
+
+
+#referencia-personales{
+	border: solid 1px;
+	border-color: white;
+	float: left;
+	width: 29%;
+	height: 495px;
+	margin: 13px 0px;
+	top: -1px;
+	
+}
+
+
